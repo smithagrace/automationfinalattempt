@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="CommonElements.Driver"></listener>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="C:/Users/anigv/IdeaProjects/Bookmyshow-attempt2/src">
+        <classes>
+
+        <class name="TestCases.ListYourShowTC"></class>
+
+        <class name="TestCases.ChangeLocationTC"></class>
+        <class name="TestCases.FooterTC"></class>
+            <class name="TestCases.ICICIBankTC"></class>
+            <class name="TestCases.ListYourShowTC"></class>
+            <class name="TestCases.LanguageTC"></class>
+            <class name="TestCases.MovieTC"></class>
+            <class name="TestCases.OfferTC"></class>
+            <class name="TestCases.OnwardMovieTC"></class>
+
+        </classes>
+    </test>
+</suite>
